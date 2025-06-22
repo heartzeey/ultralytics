@@ -179,4 +179,5 @@ __all__ = (
     "TorchVision",
     "Index",
     "A2C2f",
+    "CBAM",            #Added CBAM so parse_model
 )
