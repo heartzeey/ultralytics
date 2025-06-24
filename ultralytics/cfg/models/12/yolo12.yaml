@@ -7,11 +7,11 @@
 # Parameters
 nc: 80 # number of classes
 scales: # model compound scaling constants
-  n: [0.50, 0.25, 1024] #
-  s: [0.50, 0.50, 1024]
-  m: [0.50, 1.00, 512]
-  l: [1.00, 1.00, 512]
-  x: [1.00, 1.50, 512]
+  n: [0.70, 0.35, 1024] #
+  s: [0.70, 0.70, 1024] #
+  m: [0.70, 1.20, 768] 
+  l: [1.20, 1.20, 768]
+  x: [1.20, 1.70, 768]
 
 # YOLO12n backbone with CBAM attention
 backbone:
